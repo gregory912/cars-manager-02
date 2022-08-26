@@ -86,24 +86,24 @@ class CarsService:
 
     def mileage_sorted_descending(self) -> dict[Car, int]:
         """
-        The method returns a map in which the key is an object of class Car,
+        The method returns a dict in which the key is an object of class Car,
         while the value is the number of kilometers that the car has traveled.
-        The pairs on the map are sorted in descending order by value.
+        The pairs on the dict are sorted in descending order by value.
         """
         ziped_values = zip(self.cars_obj, self.get_list_of_values('mileage', self.cars))
         return dict(sorted(ziped_values, key=lambda x: x[1], reverse=True))
 
     def list_of_cars_with_given_tire(self) -> dict[TyreType, list]:
         """
-        The method returns a map where the key is the type of tire (TyreType) and
-        the value is a list of cars with this type of tire. The map is sorted in descending
+        The method returns a dict where the key is the type of tire (TyreType) and
+        the value is a list of cars with this type of tire. The dict is sorted in descending
         order by the number of items in the collection.
         """
         winter_tires, summer_tires = [], []
         for car in self.cars:
             winter_tires.append(car) if car.wheel.type == TyreType.WINTER else summer_tires.append(car)
         dict_ = {TyreType.WINTER: winter_tires, TyreType.SUMMER: summer_tires}
-        return dict(sorted(dict_.items(), key=lambda y: len(y[1])))
+        return dict(sorted(dict_.items(), key=lambda y: len(y[1]), reverse=True))
 
     def return_cars_that_have_entered_components(self, components: list[str]) -> list[Car]:
         """

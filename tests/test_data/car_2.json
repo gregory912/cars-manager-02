@@ -1,0 +1,23 @@
+{
+  "model": "BMW",
+  "price": 2000,
+  "mileage": 2000,
+  "engine": {
+    "type": "GASOLINE",
+    "power": 200.0
+  },
+  "carBody": {
+    "color": "SILVER",
+    "type": "HATCHBACK",
+    "components": [
+      "ABS",
+      "CRUISE CONTROL",
+      "ANDROID AUTO"
+    ]
+  },
+  "wheel": {
+    "type": "SUMMER",
+    "model": "BRIDGESTONE",
+    "size": 17
+  }
+}

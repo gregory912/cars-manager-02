@@ -1,0 +1,24 @@
+{
+    "model": "MAZDA",
+    "price": 3000,
+    "mileage": 3000,
+    "engine": {
+      "type": "DIESEL",
+      "power": 300.0
+      },
+    "carBody": {
+      "color": "RED",
+      "type": "SEDAN",
+      "components": [
+        "ANDROID AUTO",
+        "ROOF RACK",
+        "LEATHER UPHOLSTERY",
+        "PANORAMIC ROOF"
+          ]
+      },
+    "wheel": {
+      "type": "WINTER",
+      "model": "GOODYEAR",
+      "size": 15
+    }
+}

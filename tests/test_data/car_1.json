@@ -1,0 +1,22 @@
+{
+    "model": "AUDI",
+    "price": 1000,
+    "mileage": 1000,
+    "engine": {
+      "type": "DIESEL",
+      "power": 100.0
+      },
+    "carBody": {
+      "color": "BLACK",
+      "type": "SEDAN",
+      "components": [
+        "ABS",
+        "AIR CONDITIONING"
+          ]
+      },
+    "wheel": {
+      "type": "WINTER",
+      "model": "PIRELLI",
+      "size": 19
+    }
+}
