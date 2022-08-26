@@ -1,0 +1,24 @@
+{
+    "model": "PEUGEOT",
+    "price": 5200,
+    "mileage": 60000,
+    "engine": {
+      "type": "LPG",
+      "power": 170.0
+      },
+    "carBody": {
+      "color": "BLACK",
+      "type": "HATCHBACK",
+      "components": [
+        "ALLOY WHEELS",
+        "CRUISE CONTROL",
+        "LEATHER UPHOLSTERY",
+        "ROOF RACK"
+          ]
+      },
+    "wheel": {
+      "type": "WINTER",
+      "model": "CONTINENTAL",
+      "size": 19
+    }
+}

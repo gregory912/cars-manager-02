@@ -1,0 +1,24 @@
+{
+    "model": "OPEL",
+    "price": 6800,
+    "mileage": 5500,
+    "engine": {
+      "type": "DIESEL",
+      "power": 150.0
+      },
+    "carBody": {
+      "color": "WHITE",
+      "type": "HATCHBACK",
+      "components": [
+        "BLUETOOTH",
+        "ALLOY WHEELS",
+        "RADIO",
+        "LEATHER UPHOLSTERY"
+          ]
+      },
+    "wheel": {
+      "type": "SUMMER",
+      "model": "MICHELIN",
+      "size": 21
+    }
+}

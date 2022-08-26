@@ -1,0 +1,23 @@
+{
+    "model": "MAZDA",
+    "price": 900,
+    "mileage": 20000,
+    "engine": {
+      "type": "LPG",
+      "power": 80.0
+      },
+    "carBody": {
+      "color": "RED",
+      "type": "SEDAN",
+      "components": [
+        "ABS",
+        "RADIO",
+        "AIR CONDITIONING"
+          ]
+      },
+    "wheel": {
+      "type": "SUMMER",
+      "model": "PIRELLI",
+      "size": 18
+    }
+}

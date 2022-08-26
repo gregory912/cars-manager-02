@@ -1,0 +1,25 @@
+{
+    "model": "SEAT",
+    "price": 6000,
+    "mileage": 20000,
+    "engine": {
+      "type": "DIESEL",
+      "power": 300.0
+      },
+    "carBody": {
+      "color": "SILVER",
+      "type": "SEDAN",
+      "components": [
+        "BLUETOOTH",
+        "ALLOY WHEELS",
+        "PANORAMIC ROOF",
+        "LEATHER UPHOLSTERY",
+        "AIR CONDITIONING"
+          ]
+      },
+    "wheel": {
+      "type": "WINTER",
+      "model": "DUNLOP",
+      "size": 20
+    }
+}

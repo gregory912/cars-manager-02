@@ -1,0 +1,24 @@
+{
+    "model": "NISSAN",
+    "price": 1520,
+    "mileage": 22000,
+    "engine": {
+      "type": "GASOLINE",
+      "power": 150.0
+      },
+    "carBody": {
+      "color": "BLUE",
+      "type": "WAGON",
+      "components": [
+        "BLUETOOTH",
+        "ALLOY WHEELS",
+        "RADIO",
+        "ANDROID AUTO"
+          ]
+      },
+    "wheel": {
+      "type": "WINTER",
+      "model": "CONTINENTAL",
+      "size": 16
+    }
+}

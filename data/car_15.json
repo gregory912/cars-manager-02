@@ -1,0 +1,24 @@
+{
+    "model": "RENAULT",
+    "price": 6000,
+    "mileage": 15000,
+    "engine": {
+      "type": "GASOLINE",
+      "power": 170.0
+      },
+    "carBody": {
+      "color": "GREEN",
+      "type": "WAGON",
+      "components": [
+        "BLUETOOTH",
+        "RADIO",
+        "ROOF RACK",
+        "AIR CONDITIONING"
+          ]
+      },
+    "wheel": {
+      "type": "SUMMER",
+      "model": "MICHELIN",
+      "size": 19
+    }
+}

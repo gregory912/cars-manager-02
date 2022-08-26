@@ -1,0 +1,24 @@
+{
+    "model": "SKODA",
+    "price": 18000,
+    "mileage": 2000,
+    "engine": {
+      "type": "GASOLINE",
+      "power": 80.0
+      },
+    "carBody": {
+      "color": "RED",
+      "type": "WAGON",
+      "components": [
+        "ABS",
+        "AIR CONDITIONING",
+        "BLUETOOTH",
+        "ALLOY WHEELS"
+          ]
+      },
+    "wheel": {
+      "type": "WINTER",
+      "model": "CONTINENTAL",
+      "size": 18
+    }
+}

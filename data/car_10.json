@@ -1,0 +1,25 @@
+{
+    "model": "FORD",
+    "price": 7800,
+    "mileage": 50000,
+    "engine": {
+      "type": "DIESEL",
+      "power": 140.0
+      },
+    "carBody": {
+      "color": "WHITE",
+      "type": "WAGON",
+      "components": [
+        "ROOF RACK",
+        "LEATHER UPHOLSTERY",
+        "PANORAMIC ROOF",
+        "CRUISE CONTROL",
+        "BLUETOOTH"
+          ]
+      },
+    "wheel": {
+      "type": "WINTER",
+      "model": "PIRELLI",
+      "size": 19
+    }
+}

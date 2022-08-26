@@ -1,0 +1,25 @@
+{
+    "model": "MERCEDES",
+    "price": 2000,
+    "mileage": 11000,
+    "engine": {
+      "type": "LPG",
+      "power": 150.0
+      },
+    "carBody": {
+      "color": "GREEN",
+      "type": "SEDAN",
+      "components": [
+        "ABS",
+        "BLUETOOTH",
+        "RADIO",
+        "ROOF RACK",
+        "ANDROID AUTO"
+          ]
+      },
+    "wheel": {
+      "type": "WINTER",
+      "model": "DUNLOP",
+      "size": 16
+    }
+}

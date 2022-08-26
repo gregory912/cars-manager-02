@@ -1,0 +1,25 @@
+{
+    "model": "BMW",
+    "price": 3000,
+    "mileage": 50000,
+    "engine": {
+      "type": "LPG",
+      "power": 70.0
+      },
+    "carBody": {
+      "color": "RED",
+      "type": "WAGON",
+      "components": [
+        "ANDROID AUTO",
+        "ROOF RACK",
+        "LEATHER UPHOLSTERY",
+        "PANORAMIC ROOF",
+        "AIR CONDITIONING"
+          ]
+      },
+    "wheel": {
+      "type": "SUMMER",
+      "model": "MICHELIN",
+      "size": 17
+    }
+}

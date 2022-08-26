@@ -1,0 +1,24 @@
+{
+  "model": "BMW",
+  "price": 1670,
+  "mileage": 15800,
+  "engine": {
+    "type": "GASOLINE",
+    "power": 150.0
+  },
+  "carBody": {
+    "color": "SILVER",
+    "type": "SEDAN",
+    "components": [
+      "ABS",
+      "AIR CONDITIONING",
+      "CRUISE CONTROL",
+      "ANDROID AUTO"
+    ]
+  },
+  "wheel": {
+    "type": "WINTER",
+    "model": "BRIDGESTONE",
+    "size": 17
+  }
+}

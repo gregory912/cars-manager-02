@@ -1,0 +1,24 @@
+{
+    "model": "NISSAN",
+    "price": 6000,
+    "mileage": 15000,
+    "engine": {
+      "type": "GASOLINE",
+      "power": 210.0
+      },
+    "carBody": {
+      "color": "BLUE",
+      "type": "SEDAN",
+      "components": [
+        "ABS",
+        "PANORAMIC ROOF",
+        "LEATHER UPHOLSTERY",
+        "BLUETOOTH"
+          ]
+      },
+    "wheel": {
+      "type": "SUMMER",
+      "model": "GOODYEAR",
+      "size": 18
+    }
+}
