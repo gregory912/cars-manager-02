@@ -8,7 +8,7 @@ def validate_model(model: str) -> bool:
     return True if model.isupper() and model.isalpha() else False
 
 
-def validate_price_mileage(value: Decimal | int) -> bool:
+def validate_greater_than_0(value: Decimal | int | float) -> bool:
     """
     Validate the price and mileage that cannot be less than 0
     """

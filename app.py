@@ -1,9 +1,11 @@
 from car.service import CarsService
+from data_loader.json import get_cars
 
 
 def main():
     directory = r'data/'
-    cars_service = CarsService(directory)
+    cars = get_cars(directory)
+    CarsService(cars)
 
 
 if __name__ == '__main__':
